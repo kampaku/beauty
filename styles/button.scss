@@ -1,0 +1,14 @@
+.button {
+  padding: 13px 26px;
+  border-radius: 40px;
+  background-color: transparent;
+
+  &_white {
+    border: 2px solid var(--primary-color);
+  }
+
+  &_green {
+    color: #ffffff;
+    border: 2px solid #fff;
+  }
+}

@@ -1,0 +1,31 @@
+@import "./styles/fonts.scss";
+@import "./styles/header.scss";
+@import "./styles/button.scss";
+@import "./styles/services.scss";
+@import "./styles/hero.scss";
+@import "./styles/cards.scss";
+@import "./styles/actions.scss";
+@import "./styles/footer.scss";
+
+
+:root {
+  --primary-color: #66c05d;
+  --secondary-color: #efefef;
+  --text-color: #333333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  min-width: 320px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1150px;
+  padding: 0 20px;
+}

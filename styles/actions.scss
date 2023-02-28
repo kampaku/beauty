@@ -1,0 +1,44 @@
+.actions {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+
+  &__card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 540px;
+    width: 100%;
+    color: #ffffff;
+    padding: 35px 40px;
+    background-color: var(--primary-color);
+
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 250px;
+    }
+
+    &-title {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.2;
+    }
+
+    &-desc {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    &-input {
+      font: inherit;
+      padding: 9px 28px;
+      border: 0;
+      background: #ffffff;
+      border-radius: 30px;
+    }
+  }
+}

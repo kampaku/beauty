@@ -1,0 +1,35 @@
+.footer {
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__main {
+    padding: 38px 0;
+  }
+
+  &__social {
+    display: flex;
+    gap: 18px;
+  }
+
+  &__address {
+    font-size: 14px;
+    line-height: 1.14x;
+  }
+
+  &__copyright {
+    padding: 25px 0;
+    font-size: 12px;
+    line-height: 1.16;
+    color: #828282;
+    background-color: var(--secondary-color);
+
+    &-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
